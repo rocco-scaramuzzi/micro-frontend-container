@@ -16,6 +16,9 @@ const AppHeader = () => (
           <NavLink to="/first-contact">First Contact</NavLink>
         </li>
         <li>
+          <NavLink to="/new-contact">New Contact</NavLink>
+        </li>
+        <li>
           <NavLink to="/about">About</NavLink>
         </li>
       </ol>

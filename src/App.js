@@ -32,6 +32,7 @@ const App = () => (
         <Route exact path="/" component={Search} />
         <Route exact path="/contact/:id" component={Contact} />
         <Route exact path="/first-contact" render={FirstContact} />
+        <Route exact path="/new-contact" render={Contact} />
         <Route exact path="/about" render={About} />
       </Switch>
     </React.Fragment>
